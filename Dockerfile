@@ -1,3 +1,3 @@
 FROM alpine:latest
-RUN set -x && apt-get update
+RUN apk update
 CMD ["echo", "Hello World"]
